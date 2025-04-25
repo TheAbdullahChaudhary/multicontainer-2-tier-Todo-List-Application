@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.add-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-form button {
+  border-radius: 0 4px 4px 0;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.todo-list li {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-title {
+  cursor: pointer;
+  flex: 1;
+}
+
+.completed .todo-title {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.toggle-btn {
+  background-color: #2ecc71;
+}
+
+.completed .toggle-btn {
+  background-color: #f39c12;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
