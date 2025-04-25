@@ -576,6 +576,6 @@ docker-compose down -v
 5. Submit a pull request
 
 
+```
 
-
-##Project URL: https://github.com/TheAbdullahChaudhary/multicontainer-2-tier-Todo-List-Application.git
+Project URL: https://github.com/TheAbdullahChaudhary/multicontainer-2-tier-Todo-List-Application.git
